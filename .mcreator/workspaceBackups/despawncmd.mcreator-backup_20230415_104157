@@ -1,0 +1,61 @@
+{
+  "mod_elements": [
+    {
+      "name": "DespawnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/despawncmd/procedures/DespawnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Despawn",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/despawncmd/command/DespawnCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "despawncmd",
+    "modName": "The Despawn Entity Command",
+    "version": "1.0.0",
+    "author": "trains77, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.despawncmd",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
